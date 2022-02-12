@@ -30,6 +30,7 @@ a {
 
 .navigation {
     display: flex;
+    padding-bottom: 350px;
 }
 
 .space-between {
@@ -40,6 +41,7 @@ a {
 
 .header {
     padding-top: 64px;
+    padding-bottom: 843px;
 }
 
 .container-navigation {
@@ -155,4 +157,52 @@ a {
 .title-scroll:hover {
     color: #FBD784;
     transition: color 0.2s ease-in;
+}
+
+/* Main */
+
+.article {
+    max-width: 1492px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* article */
+
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-text {
+    padding-left: 150px;
+}
+
+.article-subtitle {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.222;
+    letter-spacing: 6px;
+    color: #FBD784;
+}
+
+.article-subtitle::before {
+    margin-right: 25px;
+    content: "";
+    width: 72px;
+    height: 2px;
+    background-color:#FBD784;   
+}
+
+.article-title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
 }
